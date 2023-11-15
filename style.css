@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color:  #f1f1f1 !important;
+}
+#heading{
+    font-family: 'Raleway', sans-serif;
+    padding: 40px;
+   }
+   #heading h1{
+    font-weight: bolder ;
+    
+   }
+   #heading p{
+          font-weight: 300;
+          padding: 5px;
+   }
+#heading b{background-color: black;
+        color:white;
+        padding: 1px 3px;
+    }
+    /* ---cards---*/
+.card{
+    box-shadow:-2px -0px 30px -1px gray;
+    font-family: 'Raleway', sans-serif;
+    
+}    
+.card-body{
+
+} 
+.card-body h6{
+    text-align: right;
+
+}  
+.card-body a{
+    background-color: #f1f1f1;
+    border: 1px solid grey;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+}  
+.card-body a:hover{
+    background-color: rgb(211, 214, 189);
+    color: black;
+}
+/*---posts*/
+.card-header{
+    background-color: rgb(207, 223, 185)!important;
+}
+
+span{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(221, 192, 192);
+    color: black;
+}
+.previous:hover{
+    cursor: not-allowed!important;
+}
+.next:hover{
+    background-color: white!important;
+    color: black!important;
+
+}
+/* *{
+    border: 2px solid red;
+} */
